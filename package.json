@@ -1,0 +1,29 @@
+{
+  "name": "p-exiftool",
+  "version": "0.0.1",
+  "description": "Wrapper around exiftool for reading metadata from many different file types.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/p-exiftool",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "exiftool",
+    "image",
+    "gif",
+    "metadata"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "execa": "^0.10.0",
+    "to-camel-case": "^1.0.0"
+  }
+}
