@@ -1,6 +1,6 @@
 {
   "name": "p-exiftool",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Wrapper around exiftool for reading metadata from many different file types.",
   "main": "index.js",
   "repository": "transitive-bullshit/p-exiftool",
