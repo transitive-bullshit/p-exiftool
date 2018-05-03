@@ -40,7 +40,7 @@ See more details on [installing exiftool](https://sno.phy.queensu.ca/~phil/exift
 ```js
 const exiftool = require('p-exiftool')
 
-const metadata = await exiftool('./media/lena.png')
+const metadata = await exiftool('./media/bubbles.gif')
 console.log(metadata)
 ```
 
