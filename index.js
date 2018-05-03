@@ -1,12 +1,7 @@
 'use strict'
 
 const execa = require('execa')
-const toCamelCase = require('to-camel-case')
-
-const customKeys = {
-  'MIMEType': 'mimeType',
-  'GIFVersion': 'gifVersion'
-}
+const toCamelCase = require('camelcase')
 
 module.exports = async (...args) => {
   const cmd = await execa('exiftool', [
@@ -20,9 +15,7 @@ module.exports = async (...args) => {
       const output = { }
 
       Object.entries(result).forEach(([ key, value ]) => {
-        const customKey = customKeys[key]
-
-        output[customKey || toCamelCase(key)] = value
+        output[toCamelCase(key)] = value
       })
 
       return output
