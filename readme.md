@@ -2,7 +2,7 @@
 
 > Wrapper around [exiftool](https://www.sno.phy.queensu.ca/~phil/exiftool/) for reading metadata from many different file types.
 
-[![NPM](https://img.shields.io/npm/v/p-exiftool.svg)](https://www.npmjs.com/package/p-exiftool) [![Build Status](https://travis-ci.org/transitive-bullshit/p-exiftool.svg?branch=master)](https://travis-ci.org/transitive-bullshit/p-exiftool) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/p-exiftool.svg)](https://www.npmjs.com/package/p-exiftool) [![Build Status](https://travis-ci.com/transitive-bullshit/p-exiftool.svg?branch=master)](https://travis-ci.com/transitive-bullshit/p-exiftool) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 - supports many different [file types](https://sno.phy.queensu.ca/~phil/exiftool/#supported)
 - supports common media types like `png`, `jpg`, `gif`, `mp4`, etc.
